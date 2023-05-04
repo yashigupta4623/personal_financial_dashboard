@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppin", sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-color: yellow;
+}
+
+
+
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+
+}
+.logo span{
+    color:black;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/* End of navbar  */
+
+header{
+    margin-left: 200px;
+}
+.container{
+    width:90%;
+    height: 490px;
+    margin-top:15px;
+}
+.item{
+    top:0;
+    left:0;
+    width:100%;
+    height: 67%;
+    color:white;
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    padding:80px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.logo2 {
+    font-size: 32px;
+}
+.logo2 span{
+    color:wheat;
+    text-decoration: underline;
+}
+
+
+
+
+/* new entry data */
+
+
+.booking-section{
+    background: url("entry-data-img.jpg");
+     background-size: 1005;
+     padding: 25px 0px;
+     width:100%;
+     height: 620px;
+     margin-bottom: 0px;
+     padding-bottom: 25px;
+ }
+ .row2{
+     margin: 10px;
+     border:2px solid white;
+     margin-top: 34px;
+     width:450px;
+     background-color: white;
+ }
+ 
+ .flex-design {
+     display: flex;
+ }
+ .form-group input{
+     height:20px;
+ }
+ 
+ 
+ 
+ .form-group {
+ margin-bottom: 8px;
+ margin-left: 15px;
+ }
+ .row{
+     background-color: white;
+     width:600px;
+     margin:20px;
+ }
+ 
+ .form-col h4 {
+ text-transform: uppercase;
+ color:Black;
+ font-size: 29px;
+ font-weight: 400;
+ margin-top:20px;
+ margin-left:34px;
+ }
+.btn{
+     font-size: 34px;
+     float: right;
+     margin-right:34px;
+ }
+ 
+ 
+ 
+ 
+ /* end of new entry */
+ 
+
+
+
+
+ 
+/* chart section */
+
+#graph {
+    width: 100%;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    height: 400px;
+    background-color: black;
+}
+.row5{
+    background-color:black;
+    border:1px solid blue;
+    width:100%;
+    height:180px;
+}
+.row5 span{
+    display: flex;
+}
+.column input{
+    margin:10px;
+    width:200px;
+    height:95px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: yellow;
+    font-size:25px;
+}
+
+
+.select-year  select{
+    width:200px;
+    margin:10px;
+    height:22px;
+    font-size: 18px;
+}
+.select-month select{
+    width:200px;
+    margin:10px;
+    height:22px;
+    font-size:18px;
+}
+#submit{
+width:200px;
+    margin:10px;
+    height:22px;
+    font-size:18px;
+}
+
+.column span{
+    color:white;
+    margin:2px;
+    margin-left:12px;
+    margin-bottom: 5px;
+}
+.form{
+    margin:5px;
+    background-color: blue;
+    margin-left:377px;
+    float:right;
+}
+
+.form h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+/* end of chart section */
+/* team section */
+.wrapper{
+    margin-top: 0px;
+    text-align: center;
+background-image: url("group-img.jpg");
+  }
+  
+  .wrapper h1{
+    font-family: 'Yatra One', cursive;
+    font-size: 48px;
+    color:black;
+    margin-bottom: 25px;
+  }
+  
+  .our_team{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .our_team .team_member{
+    width: 250px;
+    margin: 5px;
+    background: wheat;
+    padding: 20px 10px;
+  }
+  
+  .our_team .team_member .member_img{
+    background: #e9e5fa;  
+    max-width: 190px;
+    width: 100%;
+height: 190px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .our_team .team_member .member_img img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  .our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+  }
+  .our_team .team_member span{
+    font-size: 10px;
+  }
+  
+  .our_team .team_member p{
+    margin-top: 20px;
+    font-size: 14px;
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* end of footer */
